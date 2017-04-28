@@ -32,9 +32,12 @@ class CommentForm extends React.Component {
 
 	commentAdd () {
 		if (!this.state.name || !this.state.comment) {
+			
 			return;
 		}
 
+		
+		
 		const newComment = {
 			id: Date.now(),
 			name: this.state.name,
@@ -47,6 +50,8 @@ class CommentForm extends React.Component {
 			name: '',
 			comment:''
 		});
+
+
 	}
 
 	render() {

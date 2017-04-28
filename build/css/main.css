@@ -88,3 +88,22 @@ body {
 	background-color: #cc6600;
 	color:#fff;
 }
+
+.comment-list {
+	margin:0;
+	padding: 0;
+	list-style-type: none; 
+	font-size: 1.4em;
+	color:#777777;
+}
+
+.comment-list li {
+	margin: 10px 0;
+}
+
+.comment-list span {
+	margin-left: 30px;
+	color:#ff9933;
+	font-weight: bold;
+	cursor: pointer;
+}
